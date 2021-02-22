@@ -19,7 +19,7 @@ public class movement : MonoBehaviour
     public float jumph = 1.5f;
     [SerializeField]
     int jumpnum = 1;
-
+    [SerializeField]
     bool active1 = true, active2 = false;
 
     float speed = 12;
@@ -30,6 +30,12 @@ public class movement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        val.y = -2.0f;
+
+        val.y += gravity * Time.deltaTime;
+
+        controler.Move(val * Time.deltaTime);
+
         if (this.tag == "P1" && active1)
         {
             multi();
@@ -38,13 +44,25 @@ public class movement : MonoBehaviour
         {
             multi();
         }
-        
+
+        if (Input.GetKeyUp(KeyCode.A))
+        {
+            if (active1)
+            {
+                active2 = true;
+                active1 = false;
+            }
+            else
+            {
+                active2 = false;
+                active1 = true;
+            }
+        }
 
     }
 
     void multi()
     {
-        val.y = -2.0f;
 
         xyz.x = Input.GetAxis("Horizontal");
         xyz.z = Input.GetAxis("Vertical");
@@ -53,10 +71,7 @@ public class movement : MonoBehaviour
 
         controler.Move(move * speed * Time.deltaTime);
 
-
-        val.y += gravity * Time.deltaTime;
-
-        controler.Move(val * Time.deltaTime);
+        
 
     }
 
