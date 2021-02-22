@@ -1,0 +1,232 @@
+Using pre-set license
+Built from '2020.2/staging' branch; Version is '2020.2.5f1 (e2c53f129de5) revision 14861631'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19041.804; Version 2004; 64bit' Language: 'en' Physical Memory: 32719 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+D:\Unity\2020.2.5f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/Unity/game
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+51132
+Successfully changed project path to: D:/Unity/game
+D:/Unity/game
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 71.71 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.2.5f1 (e2c53f129de5)
+[Subsystems] Discovering subsystems at path D:/Unity/2020.2.5f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Unity/game/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2080 (ID=0x1e87)
+    Vendor:   
+    VRAM:     8010 MB
+    Driver:   27.21.14.5671
+Initialize mono
+Mono path[0] = 'D:/Unity/2020.2.5f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity/2020.2.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/Unity/2020.2.5f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56588
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity/2020.2.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001049 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 41.74 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.883 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001082 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 56.15 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.018 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.54 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2407 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 110.8 MB.
+System memory in use after: 108.6 MB.
+
+Unloading 45 unused Assets to reduce memory usage. Loaded Objects now: 2812.
+Total: 3.968100 ms (FindLiveObjects: 0.444300 ms CreateObjectMapping: 0.182000 ms MarkObjects: 1.835500 ms  DeleteObjects: 1.504800 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Readme.asset
+  artifactKey: Guid(83c2ed844a8c74b779a4c823d16594b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Readme.asset using Guid(83c2ed844a8c74b779a4c823d16594b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac18e88c48d13cf6c3a5bef62109cad6') in 0.059179 seconds
+  Import took 0.062805 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.054976 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29f2a2471e7245fbc0aa931fa5cf45b7') in 0.001295 seconds
+  Import took 0.004389 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004784 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29f2a2471e7245fbc0aa931fa5cf45b7') in 0.001137 seconds
+  Import took 0.004489 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.801168 seconds.
+  path: Assets/Unity
+  artifactKey: Guid(dfa57dcbd10f42e4c84f44782dce9793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity using Guid(dfa57dcbd10f42e4c84f44782dce9793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1c096dcc227c5a3a3e3fddf5f6ec7e1') in 0.001788 seconds
+  Import took 0.005431 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.638877 seconds.
+  path: Assets/ExampleAssets
+  artifactKey: Guid(990f5c2df70993f4987a388ca178996a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets using Guid(990f5c2df70993f4987a388ca178996a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7d852597c063a071e3228ba1614ebe8') in 0.001412 seconds
+  Import took 0.004450 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001483 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.711 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2332 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 107.7 MB.
+System memory in use after: 105.5 MB.
+
+Unloading 40 unused Assets to reduce memory usage. Loaded Objects now: 2814.
+Total: 2.855500 ms (FindLiveObjects: 0.304600 ms CreateObjectMapping: 0.110600 ms MarkObjects: 1.382800 ms  DeleteObjects: 1.056600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.518472 seconds.
+  path: Assets/Cube Puzzle Game
+  artifactKey: Guid(3a721d2d82c3f7441a711d0723444ad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube Puzzle Game using Guid(3a721d2d82c3f7441a711d0723444ad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a331efde8fc54f161e221def22eb5de0') in 0.004561 seconds
+  Import took 0.008105 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.717743 seconds.
+  path: Assets/Cube Puzzle Game/Assets
+  artifactKey: Guid(183747e0f53aaad42919a2611d828007) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube Puzzle Game/Assets using Guid(183747e0f53aaad42919a2611d828007) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74351c1d5617b3da905791c338fd10c1') in 0.001250 seconds
+  Import took 0.004291 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.476971 seconds.
+  path: Assets/Cube Puzzle Game/Code
+  artifactKey: Guid(16faa2f907db1324eb7d492546a41bf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube Puzzle Game/Code using Guid(16faa2f907db1324eb7d492546a41bf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc0ccac1e23c46a14ae6309fb1c66cb3') in 0.001381 seconds
+  Import took 0.004425 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007289 seconds.
+  path: Assets/Cube Puzzle Game/Code
+  artifactKey: Guid(16faa2f907db1324eb7d492546a41bf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube Puzzle Game/Code using Guid(16faa2f907db1324eb7d492546a41bf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc0ccac1e23c46a14ae6309fb1c66cb3') in 0.001169 seconds
+  Import took 0.004217 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.530051 seconds.
+  path: Assets/Cube Puzzle Game/Assets/textures
+  artifactKey: Guid(4acbe2a7bdade214c846f08c4d96f3d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube Puzzle Game/Assets/textures using Guid(4acbe2a7bdade214c846f08c4d96f3d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59a3a32b76634b643c3b81dbb50b1edd') in 0.001392 seconds
+  Import took 0.004835 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.277057 seconds.
+  path: Assets/Cube Puzzle Game/Assets/shaders
+  artifactKey: Guid(5ec8d698cfa10964695e38d7ff065e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube Puzzle Game/Assets/shaders using Guid(5ec8d698cfa10964695e38d7ff065e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8ed58d5e9938e090582bb4bddab90be') in 0.002261 seconds
+  Import took 0.005842 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.013891 seconds.
+  path: Assets/Cube Puzzle Game/Assets/Prefabs
+  artifactKey: Guid(50db31cbb724cf54cb6a6401c53a19e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube Puzzle Game/Assets/Prefabs using Guid(50db31cbb724cf54cb6a6401c53a19e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86542ca95887bb05008ccfb5745e1d37') in 0.001566 seconds
+  Import took 0.005636 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001722 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.707 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2692 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 122.7 MB.
+System memory in use after: 118.6 MB.
+
+Unloading 66 unused Assets to reduce memory usage. Loaded Objects now: 3157.
+Total: 4.090900 ms (FindLiveObjects: 0.267700 ms CreateObjectMapping: 0.129100 ms MarkObjects: 1.621400 ms  DeleteObjects: 2.071800 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
