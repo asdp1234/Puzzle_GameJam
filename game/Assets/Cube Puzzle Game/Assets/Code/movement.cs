@@ -30,28 +30,30 @@ public class movement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-       
-
-        if (this.tag == "P1" && active1)
+        if (controler.isGrounded)
         {
             val.y = -2.0f;
+            isground = true;
+        }
+        else
+        {
+            isground = false;
+        }
+        val.y += gravity * Time.deltaTime;
 
-            val.y += gravity * Time.deltaTime;
+        controler.Move(val * Time.deltaTime);
+        if (this.tag == "P1" && active1)
+        {
+            //val.y = -2.0f;
 
-            controler.Move(val * Time.deltaTime);
+           // val.y += gravity * Time.deltaTime;
+
+           // controler.Move(val * Time.deltaTime);
             multi();
         }
         if (this.tag == "P2" && active2)
         {
-            if (controler.isGrounded)
-            {
-                val.y = -2.0f;
-                isground = true;
-            }
-            else
-            {
-                isground = false;
-            }
+           
             multi();
 
             if (Input.GetButtonDown("Jump") && isground)
