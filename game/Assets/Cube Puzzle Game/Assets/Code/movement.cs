@@ -58,7 +58,10 @@ public class movement : MonoBehaviour
                 active1 = true;
             }
         }
-
+        if (this.gameObject.transform.position.y < -10)
+        {
+            this.transform.position = new Vector3(-6,0,-3.3f);
+        }
     }
 
     void multi()
@@ -72,7 +75,7 @@ public class movement : MonoBehaviour
         controler.Move(move * speed * Time.deltaTime);
 
         
-
+        
     }
 
 }
