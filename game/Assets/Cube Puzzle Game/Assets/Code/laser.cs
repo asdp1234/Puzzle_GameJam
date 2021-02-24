@@ -8,10 +8,12 @@ public class laser : MonoBehaviour
     LineRenderer lr;
     [SerializeField]
     GameObject point1,point2;
+    [SerializeField]
+    movement player1;
     // Start is called before the first frame update
     private void Start()
     {
-        
+        player1 = player1.GetComponent<movement>();
     }
     // Update is called once per frame
     void Update()
@@ -20,21 +22,26 @@ public class laser : MonoBehaviour
         Vector3 endPos = lr.GetPosition(lr.positionCount - 1);
 
         lr.SetPosition(0, point1.transform.position);
-       
-        
+        lr.SetPosition(1, point2.transform.position);
+
+
         RaycastHit hit;
        
         if (Physics.Raycast(point1.transform.position, transform.forward, out hit))
         {
-          if (hit.collider)
+          if (hit.collider.gameObject.tag.Equals("P2"))
           {
             lr.SetPosition(1, hit.point);
             print("test");
           }
+          if (hit.collider.gameObject.tag.Equals("P1"))
+          {
+                player1.respawn();
+          }
         }
         else
         {
-                lr.SetPosition(1, point1.transform.forward*5000);
+          lr.SetPosition(1, point2.transform.position);
         }
        
 

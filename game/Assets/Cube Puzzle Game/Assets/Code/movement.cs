@@ -81,7 +81,7 @@ public class movement : MonoBehaviour
         }
         if (this.gameObject.transform.position.y < -10)
         {
-            this.transform.position = new Vector3(-6,0,-3.3f);
+            respawn();
         }
     }
 
@@ -98,5 +98,10 @@ public class movement : MonoBehaviour
         
         
     }
+   public void respawn()
+    {
+        this.transform.position = new Vector3(-6, 0, -3.3f);
+    }
+
 
 }

@@ -1863,7 +1863,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 615018001}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 5.07, z: 3}
+  m_LocalPosition: {x: 0, y: 5.45, z: 3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1989911968}
@@ -3736,6 +3736,36 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!1 &918624777
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 918624778}
+  m_Layer: 0
+  m_Name: point 2
+  m_TagString: Untagged
+  m_Icon: {fileID: 2488908585195742037, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &918624778
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 918624777}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 5.73, z: 17.81}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1989911968}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &965245126
 GameObject:
   m_ObjectHideFlags: 0
@@ -4256,6 +4286,17 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!114 &1241421934 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1224241578506571229, guid: fc9cee5e32fc836438459d5a0ace8b9c, type: 3}
+  m_PrefabInstance: {fileID: 1224241579115282446}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48b3cdc360de23d46aea5dc7e5bbf7b6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!43 &1244870142
 Mesh:
   m_ObjectHideFlags: 0
@@ -5994,7 +6035,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lr: {fileID: 1989911967}
   point1: {fileID: 615018001}
-  point2: {fileID: 0}
+  point2: {fileID: 918624777}
+  player1: {fileID: 1241421934}
 --- !u!120 &1989911967
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -6105,6 +6147,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 615018002}
+  - {fileID: 918624778}
   m_Father: {fileID: 0}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
