@@ -29,7 +29,7 @@ public class laser : MonoBehaviour
        
         if (Physics.Raycast(point1.transform.position, transform.forward, out hit))
         {
-          if (hit.collider.gameObject.tag.Equals("P2")|| hit.collider.gameObject.tag.Equals("Box"))
+          if (hit.collider)
           {
             lr.SetPosition(1, hit.point);
             print("test");
