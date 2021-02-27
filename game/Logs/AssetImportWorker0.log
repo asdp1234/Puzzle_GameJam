@@ -85,6 +85,35 @@ Start importing Assets/Cube Puzzle Game/Assets/textures/gold.mat using Guid(9f3d
   Import took 0.254910 seconds .
 
 ========================================================================
+Received Import Request.
+  Time since last request: 5.232082 seconds.
+  path: Assets/Cube Puzzle Game/Assets/Scenes/game.unity
+  artifactKey: Guid(445f7f42ab5589a419f890b32353712e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube Puzzle Game/Assets/Scenes/game.unity using Guid(445f7f42ab5589a419f890b32353712e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c05549d92e164158bac3916f90aa0d4c') in 0.002608 seconds
+  Import took 0.006754 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000510 seconds.
+  path: Assets/Cube Puzzle Game/Assets/Scenes/game.unity
+  artifactKey: Guid(445f7f42ab5589a419f890b32353712e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube Puzzle Game/Assets/Scenes/game.unity using Guid(445f7f42ab5589a419f890b32353712e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c05549d92e164158bac3916f90aa0d4c') in 0.001390 seconds
+  Import took 0.005704 seconds .
+
+========================================================================
+Received Prepare
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.00 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 38 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 70.8 MB.
+System memory in use after: 68.6 MB.
+
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 3187.
+Total: 4.079400 ms (FindLiveObjects: 0.416200 ms CreateObjectMapping: 0.183300 ms MarkObjects: 2.282600 ms  DeleteObjects: 1.196200 ms)
+
+========================================================================
 Received Prepare
 Registering precompiled user dll's ...
 Registered in 0.001632 seconds.

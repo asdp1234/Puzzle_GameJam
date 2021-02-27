@@ -7,7 +7,7 @@ public class laser : MonoBehaviour
     [SerializeField]
     LineRenderer lr;
     [SerializeField]
-    GameObject point1,point2;
+    public GameObject point1,point2;
     [SerializeField]
     movement player1;
     // Start is called before the first frame update
