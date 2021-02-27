@@ -1,37 +1,65 @@
 Using pre-set license
 Built from '2020.2/staging' branch; Version is '2020.2.5f1 (e2c53f129de5) revision 14861631'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Pro; OS build 19041.804; Version 2004; 64bit' Language: 'en' Physical Memory: 32719 MB
+OS: 'Windows 10 Home; OS build 18363.1379; Version 1909; 64bit' Language: 'en' Physical Memory: 16275 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
-D:\Unity\2020.2.5f1\Editor\Unity.exe
+C:\Program Files\Unity\Hub\Editor\2020.2.5f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-D:/Unity/Puzzle_GameJam/game
+C:/Users/Ableton Liv/Documents/GitHub/Puzzle_GameJam/game
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
+<<<<<<< HEAD
 55748
 Successfully changed project path to: D:/Unity/Puzzle_GameJam/game
 D:/Unity/Puzzle_GameJam/game
 Using Asset Import Pipeline V2.
 Refreshing native plugins compatible for Editor in 38.96 ms, found 0 plugins.
+=======
+<<<<<<< HEAD
+53814
+Successfully changed project path to: C:/Users/Ableton Liv/Documents/GitHub/Puzzle_GameJam/game
+C:/Users/Ableton Liv/Documents/GitHub/Puzzle_GameJam/game
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 60.65 ms, found 0 plugins.
+=======
+62707
+Successfully changed project path to: D:/Unity/Puzzle_GameJam/game
+D:/Unity/Puzzle_GameJam/game
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 40.13 ms, found 0 plugins.
+>>>>>>> 9486faedcb9d2257ca89027d0c6f16bee915748d
+>>>>>>> main
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.5f1 (e2c53f129de5)
-[Subsystems] Discovering subsystems at path D:/Unity/2020.2.5f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/Unity/Puzzle_GameJam/game/Assets
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.5f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Ableton Liv/Documents/GitHub/Puzzle_GameJam/game/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
-    Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 2080 (ID=0x1e87)
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 950M (ID=0x139a)
     Vendor:   
-    VRAM:     8010 MB
-    Driver:   27.21.14.5671
+    VRAM:     4055 MB
+    Driver:   26.21.14.3107
 Initialize mono
+<<<<<<< HEAD
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.5f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.5f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56960
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001910 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 54.41 ms, found 0 plugins.
+=======
 Mono path[0] = 'D:/Unity/2020.2.5f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Unity/2020.2.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'D:/Unity/2020.2.5f1/Editor/Data/MonoBleedingEdge/etc'
@@ -41,32 +69,158 @@ Registering precompiled unity dll's ...
 Register platform support module: D:/Unity/2020.2.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Registered in 0.001010 seconds.
 Native extension for WindowsStandalone target not found
+<<<<<<< HEAD
 Refreshing native plugins compatible for Editor in 38.51 ms, found 0 plugins.
+=======
+Refreshing native plugins compatible for Editor in 38.69 ms, found 0 plugins.
+>>>>>>> 9486faedcb9d2257ca89027d0c6f16bee915748d
+>>>>>>> main
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
+<<<<<<< HEAD
 - Completed reload, in  0.778 seconds
+=======
+<<<<<<< HEAD
+- Completed reload, in  1.078 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001610 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 54.73 ms, found 0 plugins.
+=======
+- Completed reload, in  0.825 seconds
+>>>>>>> main
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
 Registered in 0.001146 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
+<<<<<<< HEAD
 Refreshing native plugins compatible for Editor in 40.42 ms, found 0 plugins.
+=======
+Refreshing native plugins compatible for Editor in 42.27 ms, found 0 plugins.
+>>>>>>> 9486faedcb9d2257ca89027d0c6f16bee915748d
+>>>>>>> main
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
+<<<<<<< HEAD
 - Completed reload, in  0.870 seconds
+=======
+<<<<<<< HEAD
+- Completed reload, in  1.303 seconds
+=======
+- Completed reload, in  0.900 seconds
+>>>>>>> 9486faedcb9d2257ca89027d0c6f16bee915748d
+>>>>>>> main
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+<<<<<<< HEAD
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
 Refreshing native plugins compatible for Editor in 0.50 ms, found 0 plugins.
+=======
+<<<<<<< HEAD
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.59 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2783 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 128.5 MB.
+System memory in use after: 126.2 MB.
+
+Unloading 125 unused Assets to reduce memory usage. Loaded Objects now: 3187.
+Total: 5.596900 ms (FindLiveObjects: 0.439100 ms CreateObjectMapping: 0.244000 ms MarkObjects: 2.660800 ms  DeleteObjects: 2.251100 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Unity/Readme.asset
+  artifactKey: Guid(83c2ed844a8c74b779a4c823d16594b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity/Readme.asset using Guid(83c2ed844a8c74b779a4c823d16594b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99147ffbfc7b27e1a6393fcf94f174c8') in 0.040961 seconds
+  Import took 0.045918 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.704420 seconds.
+  path: Assets/Cube Puzzle Game/Assets/Scenes/Test levels.unity
+  artifactKey: Guid(1b90ddfecb7f87746a00a910b0b6c540) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube Puzzle Game/Assets/Scenes/Test levels.unity using Guid(1b90ddfecb7f87746a00a910b0b6c540) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c707fe4900289cbd6e971e7b56aab208') in 0.007365 seconds
+  Import took 0.011793 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001854 seconds.
+  path: Assets/Cube Puzzle Game/Assets/Scenes/Test levels.unity
+  artifactKey: Guid(1b90ddfecb7f87746a00a910b0b6c540) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube Puzzle Game/Assets/Scenes/Test levels.unity using Guid(1b90ddfecb7f87746a00a910b0b6c540) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c707fe4900289cbd6e971e7b56aab208') in 0.003211 seconds
+  Import took 0.009900 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.921767 seconds.
+  path: Assets/Cube Puzzle Game/Assets/Scenes/game.unity
+  artifactKey: Guid(445f7f42ab5589a419f890b32353712e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube Puzzle Game/Assets/Scenes/game.unity using Guid(445f7f42ab5589a419f890b32353712e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98572b963530be2763b32df592ff5259') in 0.007709 seconds
+  Import took 0.013001 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 997.633492 seconds.
+  path: Assets/Cube Puzzle Game/Assets/Prefabs/Box.prefab
+  artifactKey: Guid(b7fd5ab313df90e47a71484308ae3efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube Puzzle Game/Assets/Prefabs/Box.prefab using Guid(b7fd5ab313df90e47a71484308ae3efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '064f75e363f66a4b79d59a2224726697') in 0.028327 seconds
+  Import took 0.033640 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000408 seconds.
+  path: Assets/Cube Puzzle Game/Assets/Prefabs/Player2.prefab
+  artifactKey: Guid(67db498d37a64d4478599a6c0a5a974e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube Puzzle Game/Assets/Prefabs/Player2.prefab using Guid(67db498d37a64d4478599a6c0a5a974e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '657b27249db3c8dfde0ce7be7f0b1da2') in 0.010113 seconds
+  Import took 0.014717 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Assets/Cube Puzzle Game/Assets/Prefabs/Player.prefab
+  artifactKey: Guid(fc9cee5e32fc836438459d5a0ace8b9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube Puzzle Game/Assets/Prefabs/Player.prefab using Guid(fc9cee5e32fc836438459d5a0ace8b9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63008c56a9a4fb7fea750f4a3e3aff16') in 0.009979 seconds
+  Import took 0.018500 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 761.048750 seconds.
+  path: Assets/Cube Puzzle Game/Assets
+  artifactKey: Guid(183747e0f53aaad42919a2611d828007) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube Puzzle Game/Assets using Guid(183747e0f53aaad42919a2611d828007) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95513e4a00246ce3d03147245b83d67a') in 0.008655 seconds
+  Import took 0.014733 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 93.634704 seconds.
+  path: Assets/Cube Puzzle Game/Assets/3DModels
+  artifactKey: Guid(56bf932c9c496ab4d9a640a1d7bc85ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube Puzzle Game/Assets/3DModels using Guid(56bf932c9c496ab4d9a640a1d7bc85ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cca6572b9ad40c926b926096ed6b2026') in 0.008753 seconds
+  Import took 0.015012 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.117071 seconds.
+  path: Assets/Cube Puzzle Game/Assets/3DModels/KeyOBJ.rar
+  artifactKey: Guid(0a4872216e0e8c243820a9ca2f4b47a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube Puzzle Game/Assets/3DModels/KeyOBJ.rar using Guid(0a4872216e0e8c243820a9ca2f4b47a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c3982ae71466756765366f20e002e18') in 0.015154 seconds
+  Import took 0.019267 seconds .
+=======
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
+>>>>>>> main
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2783 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 128.6 MB.
@@ -84,6 +238,7 @@ Start importing Assets/Cube Puzzle Game/Assets/textures/gold.mat using Guid(9f3d
 
 ========================================================================
 Received Import Request.
+<<<<<<< HEAD
   Time since last request: 4.716201 seconds.
   path: Assets/Cube Puzzle Game/Assets/textures/laser.mat
   artifactKey: Guid(5679c641ddb0f7948883a2b918e2cb13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
@@ -97,11 +252,37 @@ Received Import Request.
   artifactKey: Guid(3dc2983e35efd294792101531f3eefe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Cube Puzzle Game/Assets/textures/images.jpg using Guid(3dc2983e35efd294792101531f3eefe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '943742d649fc11243cd559bfc22d29ce') in 0.060510 seconds
   Import took 0.064710 seconds .
+=======
+  path: Assets/Cube Puzzle Game/Assets/Code/laser.cs
+  artifactKey: Guid(de12da0d9d7b863458c25d85bab4045a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube Puzzle Game/Assets/Code/laser.cs using Guid(de12da0d9d7b863458c25d85bab4045a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c91d2cdf638fb473e736ccf81008300') in 0.050357 seconds
+  Import took 0.055514 seconds .
+>>>>>>> 9486faedcb9d2257ca89027d0c6f16bee915748d
+>>>>>>> main
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
+<<<<<<< HEAD
 Registered in 0.001112 seconds.
+=======
+<<<<<<< HEAD
+Registered in 0.002156 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool)
+UnityEditor.ProBuilder.HierarchyListener:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[C:\buildslave\unity\build\Editor/Src/AnnotationManager.cpp line 229]
+=======
+Registered in 0.001154 seconds.
+>>>>>>> main
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
@@ -114,12 +295,79 @@ System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.Runti
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 
 [Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+>>>>>>> 9486faedcb9d2257ca89027d0c6f16bee915748d
 
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
+<<<<<<< HEAD
 - Completed reload, in  0.755 seconds
+=======
+<<<<<<< HEAD
+- Completed reload, in  1.192 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2676 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 122.6 MB.
+System memory in use after: 120.5 MB.
+
+Unloading 43 unused Assets to reduce memory usage. Loaded Objects now: 3189.
+Total: 5.966900 ms (FindLiveObjects: 0.308200 ms CreateObjectMapping: 0.151800 ms MarkObjects: 3.227000 ms  DeleteObjects: 2.278500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 461.439419 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/Lit.mat
+  artifactKey: Guid(31321ba15b8f8eb4c954353edc038b1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/Lit.mat using Guid(31321ba15b8f8eb4c954353edc038b1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc78d1f8826215c54ff2fe454c11abd8') in 0.246642 seconds
+  Import took 0.252622 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/ParticlesUnlit.mat
+  artifactKey: Guid(e823cd5b5d27c0f4b8256e7c12ee3e6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/ParticlesUnlit.mat using Guid(e823cd5b5d27c0f4b8256e7c12ee3e6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7ddf7d87ff3913c9d6df0d17b6ca74c') in 0.025943 seconds
+  Import took 0.031661 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/TerrainLit.mat
+  artifactKey: Guid(594ea882c5a793440b60ff72d896021e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/TerrainLit.mat using Guid(594ea882c5a793440b60ff72d896021e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '659df3aebaba5429f74e9baf0684cec8') in 0.513746 seconds
+  Import took 0.519926 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Unlit-Default.mat
+  artifactKey: Guid(9dfc825aed78fcd4ba02077103263b40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Unlit-Default.mat using Guid(9dfc825aed78fcd4ba02077103263b40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dcf12d971f989427940f0578f1475ef') in 0.062334 seconds
+  Import took 0.068107 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/SimpleLit.mat
+  artifactKey: Guid(6a1143ee683302f4aa628c052723efc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/SimpleLit.mat using Guid(6a1143ee683302f4aa628c052723efc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3880f4a07d9f7a55cddc503eed67ad17') in 0.516383 seconds
+  Import took 0.523282 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Lit-Default.mat
+  artifactKey: Guid(a97c105638bdf8b4a8650670310a4cd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Lit-Default.mat using Guid(a97c105638bdf8b4a8650670310a4cd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '254f4462c5cb93a6a03035a5ee7d6375') in 0.037131 seconds
+  Import took 0.045445 seconds .
+=======
+- Completed reload, in  0.763 seconds
+>>>>>>> main
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
@@ -584,6 +832,7 @@ Received Import Request.
 Start importing Assets/Cube Puzzle Game/Assets/Materials/images.jpg using Guid(d2de3dee3d20b7c49ae803f5066c9c3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c66f87a74d3ef6064419e9be2c473e3') in 0.025371 seconds
   Import took 0.029126 seconds .
 
+<<<<<<< HEAD
 ========================================================================
 Received Import Request.
   Time since last request: 19.313310 seconds.
@@ -705,5 +954,10 @@ Received Import Request.
   artifactKey: Guid(1f3ba6b5a18a6854b8056c8d98f4a971) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Cube Puzzle Game/Assets/textures/slime.mat using Guid(1f3ba6b5a18a6854b8056c8d98f4a971) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2baa368f297e4f8735800af3c76b1d01') in 0.007726 seconds
   Import took 0.013896 seconds .
+=======
+Unloading 43 unused Assets to reduce memory usage. Loaded Objects now: 3191.
+Total: 3.360500 ms (FindLiveObjects: 0.268600 ms CreateObjectMapping: 0.120300 ms MarkObjects: 1.827100 ms  DeleteObjects: 1.143500 ms)
+>>>>>>> 9486faedcb9d2257ca89027d0c6f16bee915748d
+>>>>>>> main
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
