@@ -4,8 +4,11 @@ using UnityEngine;
 
 public class key : MonoBehaviour
 {
-    bool exit = false;
-
+    bool exit;
+    private void Start()
+    {
+        exit = false;
+    }
     private void OnTriggerEnter(Collider col)
     {
         if ( col.gameObject.tag.Equals("P1")|| col.gameObject.tag.Equals("P2"))
