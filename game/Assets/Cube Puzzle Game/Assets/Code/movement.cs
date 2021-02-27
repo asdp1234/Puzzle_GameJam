@@ -100,7 +100,7 @@ public class movement : MonoBehaviour
     }
    public void respawn()
     {
-        this.transform.position = new Vector3(-6, 0, -3.3f);
+        transform.position = new Vector3(-6, 0, -3.3f);
     }
 
 

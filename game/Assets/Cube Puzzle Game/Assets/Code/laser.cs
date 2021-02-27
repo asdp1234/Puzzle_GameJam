@@ -9,11 +9,11 @@ public class laser : MonoBehaviour
     [SerializeField]
     GameObject point1,point2;
     [SerializeField]
-    movement player1;
+    GameObject player1,respawnpoint;
     // Start is called before the first frame update
     private void Start()
     {
-        player1 = player1.GetComponent<movement>();
+        //player1 = player1.GetComponent<movement>();
     }
     // Update is called once per frame
     void Update()
@@ -29,15 +29,30 @@ public class laser : MonoBehaviour
        
         if (Physics.Raycast(point1.transform.position, transform.forward, out hit))
         {
+          
           if (hit.collider)
           {
-            lr.SetPosition(1, hit.point);
-            print("test");
-          }
-          if (hit.collider.gameObject.tag.Equals("P1"))
-          {
-                player1.respawn();
-          }
+               if (hit.collider.gameObject.tag.Equals("P1"))
+               {
+
+                    // respwn
+                    Destroy(hit.collider.gameObject);
+
+
+               }
+                if (hit.collider && !hit.collider.gameObject.tag.Equals("P1"))
+                {
+                    
+                    print("No");
+                    print(hit.collider.gameObject.tag);
+                    lr.SetPosition(1, hit.point);
+                     print("test");
+                }
+                //  else
+                //{
+                //    
+                // }
+            }
         }
         else
         {
